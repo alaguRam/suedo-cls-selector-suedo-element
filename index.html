@@ -1,0 +1,117 @@
+<! DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<meta id="viewport" content="width=device-width, inital-scale=1.0">
+		<meta id="keywords" content="HTMLtable,form">
+		<link rel="stylesheet" href="css\style.css">
+		<title>Pseudo Elements</title>
+		</head>
+	<body>
+		<table class="pseudotable" border="2">
+			<caption style="font-size:40px";> Pseudo Elements/Class </caption>
+			
+			<thead>
+			
+			<th>Pseudo-element/class</th>
+			<th>Code</th>
+			<th>Output</th>
+	
+			</thead>
+			
+			<tbody>
+			 
+			 <tr>
+			 <td>first-line</td>
+			 <td>.computer::first-line {
+	              color: #ff0000;
+                  }</td>
+			 <td><p class="computer">A computer is a machine that can be programmed to carry out sequences of arithmetic or logical operations (computation) automatically. Modern digital electronic computers can perform generic sets of operations known as programs. These programs enable computers to perform a wide range of tasks.</p></td>
+			</tr>
+			
+			
+			<tr>
+			 <td>first-letter</td>
+			 <td>.computer1::first-letter {
+	color: blue</td>
+			 <td><p class="computer1">A computer is a machine that can be programmed to carry out sequences of arithmetic or logical operations (computation) automatically. Modern digital electronic computers can perform generic sets of operations known as programs. These programs enable computers to perform a wide range of tasks..</p></td>
+			</tr>
+			
+			
+			<tr>
+			 <td>before</td>
+			 <td>.class3::before {
+   content: url('https://www.shutterstock.com/image-vector/cute-siberian-husky-dog-smiling-260nw-1675727032.jpg ');
+            }</td>
+			 <td><p class="class3">dog love..</p></td>
+			</tr>
+			
+			
+			
+			<tr>
+			<td>after</td>
+			<td>.class4::after {
+                content: url('https://cdn-icons-png.flaticon.com/128/3620/3620659.png');
+           }
+			</td>
+			<td><p class="class4">gift for you..</p></td>
+			</tr>
+			
+			
+			
+			
+			<tr>
+			 <td>focus</td>
+			 <td>.class4:focus {
+              color:red;
+             background-color:yellow;
+   
+             }
+			</td>
+			<td><input class="class4" type="text"></td>
+			</tr>
+			
+			
+			
+			<tr>
+			 <td>hover</td>
+			 <td>.smlink:hover {
+	     transform:scale(1.8);
+            }
+			</td>
+			<td><img class="smlink" src="img\fb.jpeg" alt="fb"></td>
+			</tr>
+			
+			
+			<tr>
+			 <td>visited</td>
+			 <td>a:visited {
+	         color: pink;
+             }
+			</td>
+			<td><a href="https://www.youtube.com/">Link 1</a><br>
+            <a href="http://githup.com/">Link 2</a></td>
+			</tr>
+			
+			
+			
+			<tr>
+			 <td>link</td>
+			 <td>.link:hello{
+            	color:aqua;
+				}
+			</td>
+			<td><a class="hello" href="https://www.bookmyshow.com">Link 1</a><br>
+            <a class="hello" href="https://www.facebook.com/html/">Link 2</a></td>
+			</tr>
+			
+			
+			
+			
+
+			
+			</tbody>
+			</table>
+	</body>
+	</html>
+		

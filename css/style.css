@@ -1,0 +1,52 @@
+.pseudotable {
+  width:100%;
+  border-collapse: collapse;
+  border-color: black;
+  font-size:20px;
+}
+
+
+td {
+   text-align: center;
+    padding: 8px;
+       }
+	   
+	   tr:nth-child(odd)  {
+    background-color:#AAB7B8
+	  }
+    th {
+        padding: 8px;
+		background-color:#F9E79F;
+	  }	
+	  
+.computer::first-line {
+	color: #ff0000;
+}
+
+.computer1::first-letter {
+	color: blue;
+}
+.class3::before {
+   content: url('https://www.shutterstock.com/image-vector/cute-siberian-husky-dog-smiling-260nw-1675727032.jpg');
+   
+}
+
+.class4::after {
+   content: url('https://cdn-icons-png.flaticon.com/128/3620/3620659.png');
+}
+.class4:focus {
+   color:red;
+   background-color:yellow;
+   
+}
+.smlink:hover {
+	transform:scale(1.8);
+}
+
+a:visited {
+	  color: pink;
+}
+.hello:link {
+	color:aqua;
+	
+}
